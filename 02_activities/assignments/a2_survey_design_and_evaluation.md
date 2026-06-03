@@ -40,30 +40,66 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to understand the factors contributing to high turnover among entry- and lower-level employees at a large technology company. The survey will collect information about employees’ satisfaction with compensation, workload, management, career development, workplace culture, and work-life balance. The results will help the Human Resources Department identify concrete changes that could improve employee retention and satisfaction.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population is all current entry- and lower-level employees at the company, especially those working in departments where turnover has recently increased. The sampling frame is the company’s internal HR employee database, which includes job level, department, employment status, and company email address. The sampling units are individual employees selected from this HR database, and the observational units are also the individual employees who complete the survey. The survey will use a stratified random sampling strategy. Employees will first be grouped by department and job level, and then a random sample will be selected from each group. This strategy is appropriate because turnover may be caused by different factors in different departments or job levels, so stratification helps ensure that the sample represents the variety of entry- and lower-level employee experiences across the company.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How satisfied are you with your current role at the company?
+   - Very satisfied
+   - Somewhat satisfied
+   - Neither satisfied nor dissatisfied
+   - Somewhat dissatisfied
+   - Very dissatisfied
+
+2. How likely are you to look for a job outside the company within the next six months?
+   - Very likely
+   - Somewhat likely
+   - Not sure
+   - Somewhat unlikely
+   - Very unlikely
+
+3. Which of the following factors most affect your decision to stay at or leave the company? Select up to three.
+   - Compensation
+   - Benefits
+   - Workload
+   - Work-life balance
+   - Relationship with manager
+   - Career advancement opportunities
+   - Company culture
+   - Job security
+   - Recognition or appreciation
+   - Other: ________
+
+4. How fairly do you think you are compensated for your work?
+   - Very fairly
+   - Somewhat fairly
+   - Neutral
+   - Somewhat unfairly
+   - Very unfairly
+
+5. How manageable is your current workload?
+   - Very manageable
+   - Somewhat manageable
+   - Neutral
+   - Somewhat unmanageable
+   - Very unmanageable
+
+6. How satisfied are you with the career growth and promotion opportunities available to you?
+   - Very satisfied
+   - Somewhat satisfied
+   - Neither satisfied nor dissatisfied
+   - Somewhat dissatisfied
+   - Very dissatisfied
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +107,45 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type:
+Cross-sectional sample survey; stratified probability sample.
+
+2. Sample size:
+Statistics Canada reports that approximately 50,000 field sample units were used, about 40,000 electronic questionnaire invitation letters were sent, and about 24,000 completed questionnaires were expected.
+
+3. Target population:
+Persons aged 15 and older living in the ten provinces of Canada, excluding full-time residents of institutions.
+
+4. Sampling frame:
+A combined frame using landline and cellular telephone numbers from the Census and administrative sources, plus Statistics Canada’s dwelling frame.
+
+5. Survey modes:
+Electronic questionnaire and CATI (computer-assisted telephone interviewing). Proxy responses were not allowed.
+
+6. Timeline:
+Data collection took place from September 4, 2018 to December 28, 2018.
+
+7. Response rate:
+The overall response rate was 41.9%.
+
+8. Weights:
+The file includes the person-level weight WGHT_PER. Bootstrap weights were also created for variance estimation.
+
+9. Data processing:
+Statistics Canada used generalized processing steps and utilities. Edits were performed automatically and manually, including family, consistency, and flow edits.
+
+10. Cleaning, imputation, etc.:
+Missing values were imputed mostly through donor imputation; mean imputation was used when donor imputation could not be used. Income data were linked to tax records when possible, and missing income information was imputed.
+
+11. Sources of error:
+The survey is subject to sampling error and non-sampling error, including coverage error, non-response, response error, and processing error.
+
+12. Limitations / known biases:
+Households without telephones were excluded from the survey population, which may create coverage bias. Non-response bias is also possible, though weights were adjusted to reduce it. Statistics Canada also notes that 2018 estimates should not be directly compared with previous iterations because the 2018 survey introduced an Internet response option and changed parts of the methodology.
+
+13. Documentation and sources:
+Use the Statistics Canada GSS GVP survey page and the PUMF Documentation and User Guide.
+
 ```
 
 ## Rubric
